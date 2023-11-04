@@ -1,0 +1,497 @@
+/*START GLOBAL ATTRIBUTE */
+.mainColor1 {
+  color: #e65f78;
+}
+
+
+:root {
+  --mainColor: #e65f78;
+}
+body{
+  overflow: hidden;
+}
+/*END GLOBAL ATTRIBUTE */
+
+
+
+
+
+
+
+
+
+/* start loading page */
+
+.loading{
+  background-color: #333;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 55555;
+  
+}
+
+.spinner {
+  margin: 250px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #fff;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+/* end loading page */
+
+
+#sideBar{
+  z-index: 43433434;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  display: flex;
+}
+.sideBarInner{
+  background-color: #ccc;
+  padding: 10px;
+  width: 250px;
+}
+.sidebar i{
+  transform: translateY(100%);
+  align-self: flex-start;
+  background-color: #e65f78;
+  color: white;
+  padding: 10px ;
+  cursor: pointer;
+}
+
+.color-box{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: gold;
+}
+
+
+
+
+
+
+/* start sideBar */
+
+
+
+/* end sideBar */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  START NAV */
+
+.logoImg {
+  width: 80px;
+}
+
+.navbar{
+  transition: background-color 1s;
+  background-color: white;
+}
+nav ul :hover {
+  color: var(--mainColor) !important;
+}
+/*  END NAV */
+
+
+
+/* START HOME */
+
+#btnUp{
+  width: 40px;
+  height: 40px;
+  background-color: #e65f78;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index:333333;
+  border: none;
+  display: none;
+}
+
+.home {
+  background-image: linear-gradient(rgba(0 0 0 / 50%), rgba(0 0 0 /50%)),
+    url(../Images/header-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.homeContent {
+  width: 31.25em;
+}
+
+.homeBtn {
+  color: white;
+  background: inherit;
+  padding: 15px 15px;
+  border-radius: 40px;
+  border: white solid 3px;
+  font-size: 1.1em;
+  transition: 0.3s;
+}
+
+.homeBtn:hover {
+  background-color: white;
+  color: black;
+}
+
+.homeContent h3::after {
+  content: "";
+  animation: move 5s infinite;
+}
+
+@keyframes move {
+  0% {
+    content: "";
+  }
+  2.2% {
+    content: " ";
+  }
+  4.4% {
+    content: " A";
+  }
+  6.6% {
+    content: " A ";
+  }
+  8.8% {
+    content: " A P";
+  }
+  11% {
+    content: " A Ph";
+  }
+  13.2% {
+    content: " A Pho";
+  }
+  15.4% {
+    content: " A Phot";
+  }
+  17.6% {
+    content: " A Photo";
+  }
+  19.8% {
+    content: " A Photog";
+  }
+  22% {
+    content: " A Photogr";
+  }
+  24.2% {
+    content: " A Photogra";
+  }
+  26.4% {
+    content: " A Photorgrap";
+  }
+  28.6% {
+    content: " A Photorgraph";
+  }
+  30.8% {
+    content: " A Photorgraphe";
+  }
+  33% {
+    content: " A Photorgrapher";
+  }
+  35.2% {
+    content: " A Photorgrapher.";
+  }
+  37.4% {
+    content: " A Photorgrapher.";
+  }
+  39.6% {
+    content: " A Photorgrapher.";
+  }
+  41.8% {
+    content: " A Photorgrapher.";
+  }
+  44% {
+    content: " A Photorgrapher.";
+  }
+  46.2% {
+    content: " A Photorgrapher.";
+  }
+  48.4% {
+    content: " A Photorgrapher.";
+  }
+  50.6% {
+    content: " A Photorgrapher";
+  }
+  52.8% {
+    content: " A Photorgraphe";
+  }
+  56% {
+    content: " A Photorgraph";
+  }
+  58.2% {
+    content: " A Photorgrap";
+  }
+  60.4% {
+    content: " A Photorgra";
+  }
+  64% {
+    content: " A Photorgr";
+  }
+  70% {
+    content: " A Photorg";
+  }
+  72% {
+    content: " A Photor";
+  }
+  74% {
+    content: " A Photo";
+  }
+  80% {
+    content: " A Phot";
+  }
+  85% {
+    content: " A Pho";
+  }
+  90% {
+    content: " A Ph";
+  }
+  95% {
+    content: " A P";
+  }
+  98% {
+    content: " A";
+  }
+  100% {
+    content: "";
+  }
+}
+
+.downItem {
+  width: 25px;
+  height: 45px;
+  border: 2px white solid;
+  border-radius: 10px;
+  position: absolute;
+  animation: scroll 7s ease-in-out infinite;
+  bottom: 40px;
+  
+}
+.downItem::after {
+  content: "";
+  width: 4px;
+  height: 10px;
+  background-color: white;
+  position: absolute;
+  bottom: 10px;
+  transform: translateX(-50%);
+}
+
+@keyframes scroll {
+  0% {bottom: 50px;}
+  10% {bottom: 100px;}
+  20% {bottom: 50px;}
+  30% {bottom: 80px;}
+  40% {bottom: 50px;}
+  50% {bottom: 60px;}
+  60% {bottom: 50px;}
+  70% {bottom: 50px;}
+  80% {bottom: 50px;}
+  90% {bottom: 50px;}
+  100% {bottom: 50px;}
+ 
+    
+ 
+}
+
+.fixedIcon{
+    position: absolute;
+    top: 20%;
+    background-color: #2b2424;
+    padding: 10px;
+    left: -3px;
+    border-radius: 5px;
+    
+}
+/* END HOME */
+
+
+
+
+/* START SECTION(ABOUT)*/
+.aboutSection {
+   padding-bottom: 80px;
+}
+.aboutSection .aboutImg{
+    width: 600px;
+    background-image: linear-gradient(rgba( 0 0 0 /50%),rgba( 0 0 0 /50%));
+    
+}
+.aboutSection .aboutIcons i{
+    border-radius: 50%;
+    border: solid #7f7f7f 2px;
+    padding: 10px;
+
+}
+/* END SECTION(ABOUT)*/
+
+
+
+
+/* START SECTION(SERVICES) */
+.servicesSection{
+    background-color:#f8f9fa;
+    padding-bottom: 90px;
+}
+
+.servicesSection .underLine{
+    width: 20px;
+    height:2px;
+    background-color: #e65f78;
+}
+
+.servicesCard:hover .underLine{
+    width: 70px;
+}
+/* END SECTION(SERVICES) */
+
+
+
+/* START SECTION(CLEINT) */
+.sectionCleint{
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.carouselImg{
+    width: 100px;
+}
+
+.sectionCleint .carousel-indicators button {
+    background-color:var(--mainColor);
+}
+/* END SECTION(CLEINT) */
+
+
+
+
+
+
+
+
+
+/* START SECTION(PORTFOLIO) */
+.portfolioSection{
+   padding-bottom: 50px;
+}
+
+.layer{
+    background-color: rgba( 0 0 0 /50%);
+    opacity: 0;
+    transition: all .5s;
+}
+.layer:hover{
+    opacity: 1;
+}
+
+.portfolioSection .nav-item .active{
+    background-color: var(--mainColor) !important;
+    color: white !important;
+}
+
+.nav-pills li button{
+  color: black !important;
+}
+
+.portfolioSection .btnClose{
+  position: absolute;
+  right: -29.5%;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+/* END SECTION(PORTFOLIO) */
+
+
+
+
+
+
+
+/* START SECTION(CONTACT) */
+.contactSection{
+  padding-bottom: 50px;
+  background-color: #f8f9fa;
+}
+.btnForm{
+  background-color: #e65f78 !important;
+  color: white;
+  padding: 10px 10px;
+  transition : .6s;
+}
+
+.btnForm:hover{
+  color: black;
+  transform: scale(1.07);
+  
+
+
+}
+/* END SECTION(CONTACT) */
+
