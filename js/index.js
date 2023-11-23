@@ -7,10 +7,12 @@ $(window).scroll(function(){
 
 
     if(windowScroll>sectionOffset){
-        $(".navbar").css("backgroundColor","gray");
+        $(".navbar").css("backgroundColor","#595c5f");
+        $(".navbar a").css("color","#fff");
         $("#btnUp").fadeIn(500)
     }
     else{
+        $(".navbar a").css("color","black");
         $(".navbar").css("backgroundColor","white")
         $("#btnUp").fadeOut(500)
         

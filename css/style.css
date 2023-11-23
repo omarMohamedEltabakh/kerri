@@ -8,7 +8,8 @@
   --mainColor: #e65f78;
 }
 body{
-  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 /*END GLOBAL ATTRIBUTE */
 
@@ -175,17 +176,17 @@ nav ul :hover {
   display: none;
 }
 
+
 .home {
   background-image: linear-gradient(rgba(0 0 0 / 50%), rgba(0 0 0 /50%)),
     url(../Images/header-bg.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
+
 }
 
-.homeContent {
-  width: 31.25em;
-}
+
 
 .homeBtn {
   color: white;
